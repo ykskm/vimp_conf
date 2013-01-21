@@ -1,5 +1,3 @@
-set runtimepath=~/dotfiles/.vimperator
-
 "
 " Prefs
 "
@@ -7,7 +5,6 @@ set! browser.download.manager.showWhenStarting=false
 set! browser.tabs.closeWindowWithLastTab=false
 set! ui.key.contentAccess=0
 set! dom.popup_maximum=99999
-set! plugins.click_to_play=true
 
 
 "
@@ -67,8 +64,8 @@ hi -append Hint font-size: 16px;
 "
 
 " subscldr
-nnoremap <leader>s :subscldrx -rate=
-nnoremap <leader>S :subscflx -rate=
+nnoremap <leader>s :subscldr -rate=
+nnoremap <leader>S :subscfl -rate=
 
 " multi requestor
 let g:multi_requester_default_sites = 'alc'
