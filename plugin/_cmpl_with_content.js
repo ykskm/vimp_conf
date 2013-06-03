@@ -1,11 +1,4 @@
-var PLUGIN_INFO =
-<VimperatorPlugin>
-    <name>{NAME}</name>
-    <description>ページ内の単語による入力補完を可能にします。</description>
-    <version>0.1</version>
-    <author mail="ykskm9@gmail.com">ykskm</author>
-    <license></license>
-    <detail><![CDATA[
+/*
         === 概要 ===
         コマンド入力時にページ内の単語による補完を可能にします。
         候補になる単語は原則としてスペースで区切られた英単語のみで、日本語には対応していません。
@@ -39,8 +32,7 @@ var PLUGIN_INFO =
         LocationChangeの後、はじめてgetCompletionsが呼び出された際に補完候補の生成を行います。
         生成の際にはそのページのDOMツリー全体をトラバースするため、
         ページによっては非常に時間がかかる場合があります。
-    ]]></detail>
-</VimperatorPlugin>;
+*/
 
 (function() {
 
